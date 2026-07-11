@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+<title>Akire Hair Studio — Coming Soon</title>
+
+<meta name="description" content="Akire Hair Studio, Bali's newest hair salon, is launching soon. Book-worthy cuts, color, and styling that go beyond your imagination.">
+<meta name="author" content="Akire Hair Studio">
+<meta name="theme-color" content="#1b1512">
+
+<!-- Favicon: add these files under /assets before going live -->
+<link rel="icon" type="image/x-icon" href="assets/favicon.png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="apple-touch-icon-precomposed" href="/apple-touch-icon-precomposed.png">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;1,9..144,400&family=Inter:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- hreflang: which language version to serve -->
+<link rel="alternate" hreflang="en" href="https://www.akirehairstudio.com/">
+<link rel="alternate" hreflang="id" href="https://www.akirehairstudio.com/">
+<link rel="alternate" hreflang="x-default" href="https://www.akirehairstudio.com/">
+<link rel="canonical" href="https://www.akirehairstudio.com/">
+
+<!-- Open Graph -->
+<meta property="og:url" content="https://www.akirehairstudio.com/">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="id_ID">
+<meta property="og:site_name" content="Akire Hair Studio">
+<meta property="og:title" content="Akire Hair Studio - Coming Soon!">
+<meta property="og:description" content="Akire Hair Studio, Bali's newest hair salon, is launching soon. Book-worthy cuts, color, and styling that go beyond your imagination.">
+<meta property="og:image" content="https://www.akirehairstudio.com/assets/hero-placeholder.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:author" content="Akire Hair Studio">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:domain" content="akirehairstudio.com">
+<meta name="twitter:url" content="https://www.akirehairstudio.com/">
+<meta name="twitter:title" content="Akire Hair Studio - Coming Soon!">
+<meta name="twitter:description" content="Akire Hair Studio, Bali's newest hair salon, is launching soon. Book-worthy cuts, color, and styling that go beyond your imagination.">
+<meta name="twitter:image" content="https://www.akirehairstudio.com/assets/hero-placeholder.jpg">
+
+<!-- Local business schema -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HairSalon",
+  "url": "https://www.akirehairstudio.com/",
+  "logo": "https://api.akirehairstudio.com/media/themes/logoRC.png",
+  "name": "Akire Hair Studio",
+  "description": "Akire Hair Studio, Bali's newest hair salon, is launching soon. Book-worthy cuts, color, and styling that go beyond your imagination.",
+  "image": "https://www.akirehairstudio.com/assets/hero-placeholder.jpg",
+  "telephone": "+62-PLACEHOLDER-NUMBER",
+  "priceRange": "$$",
+  "currenciesAccepted": "IDR",
+  "paymentAccepted": "Credit Card, MobilePay, Cash",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Denpasar",
+    "addressRegion": "Bali",
+    "addressCountry": "ID"
+  },
+  "openingHoursSpecification": {
+    "@type": "OpeningHoursSpecification",
+    "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"],
+    "opens": "09:00",
+    "closes": "20:00"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "Hair Services",
+    "itemListElement": [
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Haircut" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hair Coloring" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Hair Treatment" } },
+      { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Styling" } }
+    ]
+  }
+}
+</script>
+
+<!-- Google Search Console verification -->
+<meta name="google-site-verification" content="1ZcJCWRfKSDW4XGftDlgPVePzdvc-CggLeNiONqlMQ0">
+
+<!-- Consent Mode v2 defaults — must load BEFORE the GTM snippet below -->
+<!-- so GTM/GA4 respect these settings from the very first page load. -->
+<!--
+  Geo-targeted defaults:
+  - Global default: granted. Akire Hair Studio's audience is
+    predominantly Indonesia-based, where opt-in-before-tracking is not
+    a legal requirement for basic analytics the way it is under GDPR.
+  - Regional override: denied-by-default for the EEA, UK, and
+    Switzerland, where GDPR / UK GDPR / FADP impose stricter
+    opt-in-first requirements regardless of audience size.
+  The cookie-consent banner further down still shows to every visitor,
+  everywhere, and calls gtag('consent','update', {...}) when a choice
+  is made — so a non-EEA visitor can still actively decline, and an
+  EEA visitor can still actively accept.
+-->
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+
+  gtag("consent", "default", {
+    ad_storage: "granted",
+    ad_user_data: "granted",
+    ad_personalization: "granted",
+    analytics_storage: "granted",
+    personalization_storage: "granted",
+    functionality_storage: "granted",
+    security_storage: "granted",
+  });
+
+  gtag("consent", "default", {
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied",
+    analytics_storage: "denied",
+    personalization_storage: "denied",
+    functionality_storage: "denied",
+    security_storage: "granted",
+    region: [
+      "AT","BE","BG","HR","CY","CZ","DK","EE","FI","FR",
+      "DE","GR","HU","IE","IT","LV","LT","LU","MT","NL",
+      "PL","PT","RO","SK","SI","ES","SE",
+      "IS","LI","NO",
+      "GB","CH"
+    ],
+  });
+</script>
+
+<!-- Google Tag Manager -->
+<!-- GTM is the single source of truth for tags. GA4 (G-LTXYCFJNWD) is -->
+<!-- configured inside the GTM container itself, not loaded directly here. -->
+<script>
+  (function (w, d, s, l, i) {
+    w[l] = w[l] || [];
+    w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+    var f = d.getElementsByTagName(s)[0],
+      j = d.createElement(s),
+      dl = l != "dataLayer" ? "&l=" + l : "";
+    j.async = true;
+    j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+    f.parentNode.insertBefore(j, f);
+  })(window, document, "script", "dataLayer", "GTM-5D3MC9PH");
+</script>
+<!-- End Google Tag Manager -->
+
+<style>
+  :root{
+    --ink:        #1b1512;
+    --panel:      #241c17;
+    --brass:      #c69a5c;
+    --brass-dim:  #8a6e42;
+    --ivory:      #f1e7d6;
+    --taupe:      #9c8a76;
+  }
+
+  *{ box-sizing:border-box; }
+
+  html,body{
+    margin:0;
+    padding:0;
+    height:100%;
+    background:var(--ink);
+    color:var(--ivory);
+    font-family:'Inter', sans-serif;
+    overflow-x:hidden;
+  }
+
+  body{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    min-height:100vh;
+    padding:6vh 6vw 12vh;
+    position:relative;
+    background:
+      radial-gradient(ellipse 80% 60% at 50% 0%, rgba(198,154,92,0.10), transparent 60%),
+      var(--ink);
+  }
+
+  .grain{
+    position:fixed;
+    inset:0;
+    pointer-events:none;
+    opacity:0.035;
+    background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+    z-index:5;
+  }
+
+  .wrap{
+    max-width:640px;
+    width:100%;
+    text-align:center;
+    position:relative;
+    z-index:2;
+  }
+
+  .eyebrow{
+    font-size:11px;
+    letter-spacing:0.32em;
+    text-transform:uppercase;
+    color:var(--taupe);
+    margin:0 0 28px;
+    opacity:0;
+    animation:fadeUp 0.9s ease forwards 0.15s;
+  }
+
+  .strand{
+    width:100%;
+    max-width:420px;
+    height:64px;
+    margin:0 auto 30px;
+    display:block;
+  }
+
+  .strand path{
+    fill:none;
+    stroke:var(--brass);
+    stroke-width:1.4;
+    stroke-linecap:round;
+    stroke-dasharray:520;
+    stroke-dashoffset:520;
+    animation:draw 2.1s cubic-bezier(.65,0,.35,1) forwards 0.4s;
+  }
+
+  h1{
+    font-family:'Fraunces', serif;
+    font-weight:300;
+    font-size:clamp(2.4rem, 6vw, 4.2rem);
+    line-height:1.06;
+    letter-spacing:-0.01em;
+    margin:0 0 22px;
+    color:var(--ivory);
+    opacity:0;
+    animation:fadeUp 1s ease forwards 0.55s;
+  }
+
+  h1 em{
+    font-style:italic;
+    font-weight:400;
+    color:var(--brass);
+  }
+
+  p.lede{
+    font-size:16px;
+    line-height:1.7;
+    color:var(--taupe);
+    max-width:440px;
+    margin:0 auto 44px;
+    opacity:0;
+    animation:fadeUp 1s ease forwards 0.75s;
+  }
+
+  .divider{
+    width:32px;
+    height:1px;
+    background:var(--brass-dim);
+    margin:0 auto 44px;
+    opacity:0;
+    animation:fadeUp 1s ease forwards 0.9s;
+  }
+
+  .contact{
+    display:flex;
+    gap:28px;
+    justify-content:center;
+    flex-wrap:wrap;
+    margin-bottom:40px;
+    opacity:0;
+    animation:fadeUp 1s ease forwards 1.05s;
+  }
+
+  .contact a{
+    color:var(--ivory);
+    text-decoration:none;
+    font-size:13px;
+    letter-spacing:0.06em;
+    text-transform:uppercase;
+    border-bottom:1px solid transparent;
+    padding-bottom:4px;
+    transition:color 0.25s ease, border-color 0.25s ease;
+  }
+
+  .contact a:hover,
+  .contact a:focus-visible{
+    color:var(--brass);
+    border-color:var(--brass-dim);
+  }
+
+  /* Social icons */
+  .social{
+    display:flex;
+    gap:14px;
+    justify-content:center;
+    flex-wrap:wrap;
+    opacity:0;
+    animation:fadeUp 1s ease forwards 1.15s;
+  }
+
+  .social a{
+    width:38px;
+    height:38px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border-radius:50%;
+    border:1px solid var(--brass-dim);
+    color:var(--taupe);
+    font-size:14px;
+    text-decoration:none;
+    transition:color 0.25s ease, border-color 0.25s ease, transform 0.25s ease;
+  }
+
+  .social a:hover,
+  .social a:focus-visible{
+    color:var(--ink);
+    background:var(--brass);
+    border-color:var(--brass);
+    transform:translateY(-2px);
+  }
+
+  footer{
+    position:fixed;
+    bottom:20px;
+    left:0;
+    right:0;
+    text-align:center;
+    font-size:11px;
+    letter-spacing:0.08em;
+    color:var(--brass-dim);
+    opacity:0;
+    animation:fadeUp 1s ease forwards 1.25s;
+    z-index:2;
+  }
+
+  @keyframes fadeUp{
+    from{ opacity:0; transform:translateY(10px); }
+    to{ opacity:1; transform:translateY(0); }
+  }
+
+  @keyframes draw{
+    to{ stroke-dashoffset:0; }
+  }
+
+  @media (prefers-reduced-motion: reduce){
+    *{ animation-duration:0.01ms !important; animation-delay:0s !important; }
+    .strand path{ stroke-dashoffset:0; }
+  }
+
+  /* Cookie consent banner */
+  #cookieConsent{
+    display:none;
+    position:fixed;
+    left:0; right:0; bottom:0;
+    z-index:100;
+    background:rgba(15,11,8,0.97);
+    border-top:1px solid var(--brass-dim);
+    color:var(--ivory);
+    padding:16px 20px;
+    font-family:'Inter', sans-serif;
+    font-size:13px;
+  }
+  #cookieConsent.show{ display:block; }
+  #cookieConsent .inner{
+    max-width:900px;
+    margin:0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:20px;
+    flex-wrap:wrap;
+  }
+  #cookieConsent p{ margin:0; flex:1 1 320px; color:var(--taupe); line-height:1.5; }
+  #cookieConsent .buttons{ display:flex; gap:10px; flex-shrink:0; }
+  #cookieConsent button{
+    font-family:'Inter', sans-serif;
+    font-size:12px;
+    letter-spacing:0.04em;
+    text-transform:uppercase;
+    padding:9px 16px;
+    border-radius:3px;
+    cursor:pointer;
+    border:1px solid var(--brass-dim);
+    background:transparent;
+    color:var(--ivory);
+    transition:background 0.2s ease, color 0.2s ease;
+  }
+  #cookieConsent button#cookieAccept{
+    background:var(--brass);
+    border-color:var(--brass);
+    color:var(--ink);
+  }
+  #cookieConsent button:hover{ opacity:0.85; }
+</style>
+</head>
+<body>
+
+  <div class="grain"></div>
+
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D3MC9PH"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <main class="wrap">
+    <p class="eyebrow">Akire Hair Studio</p>
+
+    <svg class="strand" viewBox="0 0 420 64" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <path d="M4 32 C 90 4, 140 60, 210 32 S 330 4, 416 32" />
+    </svg>
+
+    <h1>A new chapter<br>in <em>hair</em>, taking shape.</h1>
+
+    <p class="lede">
+      Akire Hair Studio is putting the final touches on Bali's newest space for
+      cut, color, and care. We open our doors soon — thank you for your patience.
+    </p>
+
+    <div class="divider"></div>
+
+    <div class="contact">
+      <a href="mailto:hello@akirehairstudio.com">hello@akirehairstudio.com</a>
+    </div>
+
+    <div class="social">
+      <a href="https://www.instagram.com/akirehairstudio" target="_blank" rel="noopener" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+      <a href="https://pin.it/4kEH9UtxP" target="_blank" rel="noopener" aria-label="Pinterest"><i class="fa-brands fa-pinterest-p"></i></a>
+      <a href="#!" target="_blank" rel="noopener" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+      <a href="#!" target="_blank" rel="noopener" aria-label="TikTok"><i class="fa-brands fa-tiktok"></i></a>
+      <a href="#!" target="_blank" rel="noopener" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+    </div>
+  </main>
+
+  <footer>&copy; <span id="year"></span> Akire Hair Studio</footer>
+
+  <!-- Cookie Consent Banner -->
+  <div id="cookieConsent">
+    <div class="inner">
+      <p>We use cookies to understand site traffic and improve your experience. You can accept or decline analytics cookies.</p>
+      <div class="buttons">
+        <button id="cookieDecline" type="button">Decline</button>
+        <button id="cookieAccept" type="button">Accept</button>
+      </div>
+    </div>
+  </div>
+  <!-- End Cookie Consent Banner -->
+
+  <!-- Font Awesome (for social icons) -->
+  <script src="https://use.fontawesome.com/releases/v6.3.0/js/all.js" crossorigin="anonymous"></script>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    (function () {
+      var COOKIE_NAME = "akire_consent";
+
+      function getCookie(name) {
+        var match = document.cookie.match(new RegExp("(?:^|; )" + name + "=([^;]*)"));
+        return match ? decodeURIComponent(match[1]) : null;
+      }
+
+      function setCookie(name, value, days) {
+        var expires = new Date(Date.now() + days * 24 * 60 * 60 * 1000).toUTCString();
+        document.cookie = name + "=" + encodeURIComponent(value) + "; expires=" + expires + "; path=/; SameSite=Lax";
+      }
+
+      function updateConsent(granted) {
+        var state = granted ? "granted" : "denied";
+        window.gtag && window.gtag("consent", "update", {
+          ad_storage: state,
+          ad_user_data: state,
+          ad_personalization: state,
+          analytics_storage: state,
+          personalization_storage: state,
+          functionality_storage: state,
+        });
+      }
+
+      var existing = getCookie(COOKIE_NAME);
+      if (existing === "granted") {
+        updateConsent(true);
+      } else if (existing === "denied") {
+        updateConsent(false);
+      } else {
+        var banner = document.getElementById("cookieConsent");
+        if (banner) banner.classList.add("show");
+      }
+
+      document.getElementById("cookieAccept").addEventListener("click", function () {
+        setCookie(COOKIE_NAME, "granted", 180);
+        updateConsent(true);
+        document.getElementById("cookieConsent").classList.remove("show");
+      });
+
+      document.getElementById("cookieDecline").addEventListener("click", function () {
+        setCookie(COOKIE_NAME, "denied", 180);
+        updateConsent(false);
+        document.getElementById("cookieConsent").classList.remove("show");
+      });
+    })();
+  </script>
+</body>
+</html>
